@@ -1,7 +1,7 @@
 # powers
 
 Extension methods for the [num] ([int] and [double]) class that
-adds methods for finding the square, cube, and higher order roots
+add functionality for finding the square, cube, and higher order roots
 and powers of the number.
 
 ## Usage

@@ -1,7 +1,7 @@
 name: powers
 description: >-
-  Extension for the num (int and double) class that adds
-  methods for finding the square, cube, and higher order roots
+  Extension methods for the num (int and double) class that adds
+  functionality for finding the square, cube, and higher order roots
   and powers of the number.
 version: 0.1.0
 homepage: https://github.com/james-alex/powers

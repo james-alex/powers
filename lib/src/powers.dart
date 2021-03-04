@@ -44,7 +44,7 @@ extension Powers on num {
 /// Adds a getter to [double] that checks if it's a valid integer.
 extension IsValidInteger on double {
   /// Returns `true` if [this] is a valid integer.
-  bool get isValidInteger => this.remainder(this.truncate()) == 0;
+  bool get isValidInteger => remainder(truncate()) == 0;
 }
 
 /// Adds methods to return the root of a value as an [int].

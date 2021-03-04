@@ -33,10 +33,7 @@ extension Powers on num {
 
   /// Returns `true` if [this] is a valid power of [factor].
   bool isPowerOf(num factor) {
-    assert(factor != null);
-
     final root = this.root(factor);
-
     return root > 0.0 && root.isValidInteger;
   }
 }
@@ -92,10 +89,8 @@ extension RootToInt on int {
 /// An exception thrown when the number being rooted isn't a
 /// valid power of the value it's being factored by.
 class InvalidPowerException implements Exception {
-  const InvalidPowerException(int powerOf, int power)
-      : assert(powerOf != null),
-        assert(power != null),
-        message = '$power isn\'t a valid power of $powerOf.';
+  const InvalidPowerException(num powerOf, num power)
+      : message = '$power isn\'t a valid power of $powerOf.';
 
   /// A message describing the error.
   final String message;

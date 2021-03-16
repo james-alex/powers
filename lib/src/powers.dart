@@ -1,4 +1,4 @@
-import 'dart:math' as math show pow;
+import 'dart:math' as math;
 
 /// Adds methods to get the square root of a `num` and to
 /// determine if a `num` is square.

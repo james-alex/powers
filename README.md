@@ -1,6 +1,6 @@
 # powers
 
-Extension methods for the [num] ([int] and [double]) class that
+Extension methods for the `num` (`int` and `double`) class that
 add functionality for finding the square, cube, and higher order roots
 and powers of the number.
 
@@ -10,8 +10,8 @@ and powers of the number.
 import 'package:powers/powers.dart';
 ```
 
-Importing powers will add a number of methods to the [num] class, which are
-inherited by the [int] and [double] classes.
+Importing powers will add a number of methods to the `num` class, which are
+inherited by the `int` and `double` classes.
 
 The first set of methods adds methods to handle squares.
 
@@ -55,8 +55,8 @@ print(3200.isPowerOf(5)); // false
 print(3125.isPowerOf(5)); // true
 ```
 
-The [int] class is extended with 3 additional methods that calculate roots and
-return the values as [int]s, throwing an error if the value isn't a valid integer.
+The `int` class is extended with 3 additional methods that calculate roots and
+return the values as `int`s, throwing an error if the value isn't a valid integer.
 
 ```dart
 /// [sqrtToInt] returns the square root of the integer.
